@@ -1,10 +1,13 @@
-import React from 'react';
+import React from "react";
 
 function Error404Page() {
   return (
-    <div>
-      <h1>Error 404 Page does not exist</h1>
-    </div>
+    <main className="h-full container">
+      <div className="h-full flex flex-col justify-center text-center text-white text-3xl">
+        <div>Error 404</div>
+        <div>Page does not exist</div>
+      </div>
+    </main>
   );
 }
 

@@ -10,7 +10,7 @@ class Router extends Component {
     return (
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="*" element={Error404Page}></Route>
+        <Route path="*" element={<Error404Page />}></Route>
       </Routes>
     );
   }
