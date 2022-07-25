@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "NFT toolkit for rapid development",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/cabala-labs/mintbox#readme",
   "dependencies": {
     "@types/args": "^5.0.0",
+    "@types/inquirer": "^8.2.1",
     "arg": "^5.0.2",
     "chalk": "^5.0.1",
     "commander": "^9.4.0",
