@@ -5,7 +5,7 @@ const program = new Command();
 import init from "@commands/init";
 
 program
-  .name("mintbox")
+  .name("mintbox")x
   .description("CLI to quickly create a new NFT project")
   .version("0.0.1");
 
