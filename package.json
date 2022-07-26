@@ -2,8 +2,8 @@
   "name": "mintbox",
   "version": "0.0.1",
   "description": "NFT toolkit for rapid development",
-  "main": "dist/index.js",
-  "bin": "dist/index.js",
+  "main": "dist/src/index.js",
+  "bin": "dist/src/index.js",
   "type": "module",
   "files": [
     "dist/**/*",
