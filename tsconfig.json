@@ -1,0 +1,17 @@
+{
+  "ts-node": { "esm": true, "experimentalSpecifierResolution": true },
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "outDir": "dist",
+    "baseUrl": "./",
+    "paths": {
+      "@commands/*": ["src/commands/*"]
+    },
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
+  }
+}

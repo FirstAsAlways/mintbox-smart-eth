@@ -1,0 +1,45 @@
+{
+  "name": "mintbox",
+  "version": "0.0.2",
+  "description": "NFT toolkit for rapid development",
+  "main": "dist/src/index.js",
+  "bin": "dist/src/index.js",
+  "type": "module",
+  "files": [
+    "bin/**/*",
+    "dist/**/*",
+    "!dist/**/*.test.js"
+  ],
+  "scripts": {
+    "test": "jest",
+    "clean": "rimraf ./dist/",
+    "build": "npm run clean && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cabala-labs/mintbox.git"
+  },
+  "author": "cabala-labs",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/cabala-labs/mintbox/issues"
+  },
+  "homepage": "https://github.com/cabala-labs/mintbox#readme",
+  "dependencies": {
+    "@types/args": "^5.0.0",
+    "@types/inquirer": "^8.2.1",
+    "arg": "^5.0.2",
+    "chalk": "^5.0.1",
+    "commander": "^9.4.0",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/jest": "^28.1.6",
+    "@types/node": "^18.0.6",
+    "jest": "^28.1.3",
+    "ts-jest": "^28.0.7",
+    "typescript": "^4.7.4"
+  }
+}
